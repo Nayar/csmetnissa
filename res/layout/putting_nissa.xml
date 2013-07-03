@@ -20,4 +20,14 @@
         android:layout_centerVertical="true"
         android:text="@string/put_more_nissa" />
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:text="@string/sakili"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
 </RelativeLayout>
