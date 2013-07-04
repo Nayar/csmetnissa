@@ -12,4 +12,14 @@
         android:layout_centerVertical="true"
         android:text="@string/put_nissa" />
 
+    <Button
+        android:id="@+id/button2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:text="Button" />
+
 </RelativeLayout>
