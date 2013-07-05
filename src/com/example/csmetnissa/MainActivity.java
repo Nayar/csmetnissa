@@ -20,10 +20,34 @@ public class MainActivity extends Activity {
 				movetonissa();				
 			}
 		});
+        
+        // Getting the button object
+        Button BLearnSomething = (Button) findViewById(R.id.button2);
+        
+        // Add an onclick listener
+        BLearnSomething.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View arg0) {
+				// Call the function movetolearnsomething
+				movetolearnsomething();
+			}
+		});
+        
     }
     public void movetonissa(){
     	Intent IPuttingNissa = new Intent(this,PuttingNissa.class);
 		startActivity(IPuttingNissa);
+    }
+    
+    // Defining the function
+    public void movetolearnsomething(){
+    	
+    	// We say our intent is to move to LearnSomething
+    	Intent i = new Intent(this,LearnSomething.class);
+    	
+    	// We start the intention
+		startActivity(i);
     }
 
     @Override
