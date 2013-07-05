@@ -20,6 +20,6 @@
         android:layout_above="@+id/button1"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="32dp"
-        android:text="Button" />
+        android:text="@string/learn_something" />
 
 </RelativeLayout>
