@@ -11,5 +11,7 @@
     <string name="title_activity_learn_something">LearnSomething</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="play_with_motion">"Play with Motion "</string>
+    <string name="save_file">Save To File</string>
 
 </resources>
