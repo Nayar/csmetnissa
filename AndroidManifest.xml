@@ -35,6 +35,10 @@
             android:name="com.example.csmetnissa.LearnSomething"
             android:label="@string/title_activity_learn_something" >
         </activity>
+        <activity
+            android:name="com.example.csmetnissa.SaveToDatabase"
+            android:label="@string/title_activity_save_to_database" >
+        </activity>
     </application>
 
 </manifest>
