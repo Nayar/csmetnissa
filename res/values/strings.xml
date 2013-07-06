@@ -15,5 +15,6 @@
     <string name="save_file">Save To File</string>
     <string name="save_to_db">Save to Database</string>
     <string name="title_activity_save_to_database">SaveToDatabase</string>
+    <string name="title_activity_get_gpslocation">GetGPSLocation</string>
 
 </resources>

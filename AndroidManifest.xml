@@ -39,6 +39,10 @@
             android:name="com.example.csmetnissa.SaveToDatabase"
             android:label="@string/title_activity_save_to_database" >
         </activity>
+        <activity
+            android:name="com.example.csmetnissa.GetGPSLocation"
+            android:label="@string/title_activity_get_gpslocation" >
+        </activity>
     </application>
 
 </manifest>
