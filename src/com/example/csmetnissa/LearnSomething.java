@@ -22,6 +22,16 @@ public class LearnSomething extends Activity {
 				meraActivityStarter(SaveToDatabase.class);
 			}
 		});
+		
+		Button BviewGPS = (Button) findViewById(R.id.button4);
+		BviewGPS.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View arg0) {
+				// TODO Auto-generated method stub
+				meraActivityStarter(GetGPSLocation.class);
+			}
+		});
 	}
 	
 	void meraActivityStarter(Class name){
