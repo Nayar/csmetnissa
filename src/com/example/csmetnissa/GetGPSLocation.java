@@ -20,8 +20,8 @@ public class GetGPSLocation extends Activity {
 		LocationManager locationManager = (LocationManager) 
 				getSystemService(Context.LOCATION_SERVICE);
 		LocationListener locationListener = new MeraLocationListener();  
-		locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 5000, 10, locationListener);
-		locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 5000, 10, locationListener);
+		locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 5000, 50, locationListener);
+		locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 1000, 1, locationListener);
 		
 
 
